@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --main-bg-color: #f0f0f0;
+    --main-bg-color-contrast: #0B0E10;
+    --main-text-color: #333;
+    --main-text-color: #333;
+    --main-border-color: #ccc;
+    --main-border-radius: 5px;
+    --main-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    --main-transition: all 0.3s ease;
+    --cursor-trail-shadow-8:rgba(0, 0, 0, 0.8);
+    --cursor-trail-shadow-6:rgba(0, 0, 0, 0.6);
+    --main-black:#0B0E10;
+}
+
+html.dark{
+    --main-bg-color: #0B0E10;
+    --main-bg-color-contrast: #f0f0f0;
+    --main-text-color: #f0f0f0;
+    --main-border-color: #555;
+    --cursor-trail-shadow-8:rgba(255, 255, 255, 0.8);
+    --cursor-trail-shadow-6:rgba(255, 255, 255, 0.6);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: none !important;
+  user-select: none !important;
+}
+
+@font-face{
+    font-family: 'Wotfard';
+    src: url("./assets/fonts/Wotfard-Regular.woff") format("woff");
+}
+
+
+body{
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: 'Wotfard', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}

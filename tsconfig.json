@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "types": ["node"],
+      "paths": {
+        "@constants/*":["./src/constants/*"],
+        "@components/*":["./src/components/*"],
+        "@interfaces/*":["./src/interfaces/*"],
+      }
+    },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+}

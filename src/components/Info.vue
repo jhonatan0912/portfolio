@@ -1,0 +1,21 @@
+<template>
+  <section class="flex flex-col w-full gap-6">
+    <h2 class="text-3xl text-center">
+      Hey, I'm Jhonatan. I'm a Frontend Developer
+    </h2>
+
+    <section class="flex justify-center gap-3">
+      <SocialButton
+        v-for="(social, index) in socials"
+        :key="index"
+        :name="social.name"
+        :href="social.href"
+      />
+    </section>
+  </section>
+</template>
+<script setup lang="ts">
+import { socials } from "@constants/socials";
+import SocialButton from "./ui/SocialButton.vue";
+</script>
+<style scoped></style>
