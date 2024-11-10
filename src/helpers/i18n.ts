@@ -1,5 +1,5 @@
 import { Language } from '@interfaces/language.interface';
-import { createI18n, Locale } from 'vue-i18n';
+import { createI18n } from 'vue-i18n';
 
 export const i18n = createI18n({
   locale: 'en',
