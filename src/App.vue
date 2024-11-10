@@ -9,10 +9,10 @@
     <Skills/>
   </main>
 
-   <CursorTrail />
+   <!-- <CursorTrail /> -->
 </template>
 <script setup  lang="ts">
-import CursorTrail from "@components/CursorTrail.vue";
+// import CursorTrail from "@components/CursorTrail.vue";
 import Experience from "@components/Experience.vue";
 import Info from "@components/Info.vue";
 import Projects from "@components/Projects.vue";

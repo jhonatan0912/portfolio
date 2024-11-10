@@ -1,5 +1,5 @@
 <template>
-  <div class="theme-toggle" @click="toggleDark(!isDark)">
+  <div class="theme-button" @click="toggleDark(!isDark)">
     {{ isDark ? '🌙' : '🌒' }}
   </div>
 </template>
@@ -11,7 +11,7 @@ const toggleDark = useToggle(isDark)
 
 </script>
 <style scoped>
-.theme-toggle {
+.theme-button {
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -19,6 +19,7 @@ const toggleDark = useToggle(isDark)
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: grid;
   place-items: center;
+  cursor: pointer;
 
   &:hover {
     scale: .96;

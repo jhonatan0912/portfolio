@@ -47,7 +47,7 @@ const props = defineProps<Project>();
 .project-card__link {
   padding: 0.5rem 1rem;
   background-color: var(--primary-color);
-  color: white;
+  color: var(--main-text-color);
   border-radius: 0.5rem;
   text-decoration: none;
   transition: background-color 0.3s;
