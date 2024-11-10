@@ -1,4 +1,4 @@
-import { Skill } from "@interfaces/skill";
+import { Skill } from '@interfaces/skill.interface';
 
 export const skills: Skill[] = [
   { id: "angular", name: "Angular" },
