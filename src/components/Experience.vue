@@ -1,6 +1,6 @@
 <template>
   <section class="experience">
-    <h3 class="my-8 text-xl font-bold text-center underline">EXPERIENCE</h3>
+    <TitleSection title="EXPERIENCE"/>
 
     <div class="flex flex-col items-center">
       <div class="flex flex-col items-center">
@@ -34,5 +34,7 @@
     </div>
   </section>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TitleSection from './ui/TitleSection.vue';
+</script>
 <style scoped></style>

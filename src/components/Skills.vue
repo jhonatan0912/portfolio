@@ -1,8 +1,6 @@
 <template>
   <section class="skills">
-    <h3 class="my-8 text-xl font-bold text-center underline">
-      SKILLS
-    </h3>
+    <TitleSection title="SKILLS"/>
 
     <section class="skills-grid">
       <SkillCard
@@ -17,6 +15,7 @@
 <script setup lang="ts">
 import { skills } from "@constants/skills";
 import SkillCard from "@components/ui/SkillCard.vue";
+import TitleSection from "./ui/TitleSection.vue";
 </script>
 <style scoped>
 .skills-grid {

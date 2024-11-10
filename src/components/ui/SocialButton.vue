@@ -19,6 +19,10 @@ defineProps({
   display: flex;
   align-items: center;
   gap: 4px;
+  background-color: var(--social-button-bg);
+  padding: 0 6px;
+  border-radius: 2px;
+  color: #fff;
 }
 
 .social-btn-img {

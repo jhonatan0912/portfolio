@@ -4,6 +4,7 @@
 
     <Info />
 
+    <Projects />
     <Experience />
     <Skills/>
   </main>
@@ -14,6 +15,7 @@
 import CursorTrail from "@components/CursorTrail.vue";
 import Experience from "@components/Experience.vue";
 import Info from "@components/Info.vue";
+import Projects from "@components/Projects.vue";
 import Skills from "@components/Skills.vue";
 import Header from "@components/ui/Header.vue";
 
