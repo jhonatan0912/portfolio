@@ -3,7 +3,9 @@
     <img :src="props.src" alt="Project Image" class="project-card__image"/>
     <div class="project-card__content">
       <h3 class="project-card__title">{{ props.name }}</h3>
-      <a v-show="props.repository" :href="props.repository" class="project-card__link">View Project</a>
+      <a  :href="props.repository" class="project-card__link">
+        {{ `${props.repository ? `${$t('placeholder.viewRepository')}` : `${$t('placeholder.privateRepository')}`}` }}
+      </a>
     </div>
   </section>
 </template>

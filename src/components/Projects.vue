@@ -1,6 +1,6 @@
 <template>
   <section class="projects">
-    <TitleSection title="PROJECTS"/>
+    <TitleSection :title="$t('placeholder.projectsTitle')"/>
 
     <div class="projects-grid">
       <ProjectCard

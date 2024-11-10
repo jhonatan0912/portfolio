@@ -1,6 +1,6 @@
 <template>
   <section class="skills">
-    <TitleSection title="SKILLS"/>
+    <TitleSection :title="$t('placeholder.skillsTitle')"/>
 
     <section class="skills-grid">
       <SkillCard

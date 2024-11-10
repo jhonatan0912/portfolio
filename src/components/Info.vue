@@ -4,7 +4,7 @@
     <img class="avatar" src="/avatar.png" alt="Avatar">
 
     <h2 class="text-4xl text-center">
-      Hey, I'm Jhonatan. I'm a Frontend Developer
+      {{ $t("placeholder.presentation") }}
     </h2>
 
     <section class="flex justify-center gap-3">
