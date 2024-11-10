@@ -16,7 +16,7 @@
   --main-black: #0b0e10;
 
   --header-height:50px;
-  --social-button-bg:#606060;
+  --social-button-bg:#525252;
 }
 
 html.dark {
@@ -28,7 +28,7 @@ html.dark {
   --cursor-trail-shadow-8: rgba(255, 255, 255, 0.8);
   --cursor-trail-shadow-6: rgba(255, 255, 255, 0.6);
 
-  --social-button-bg:#4f4f4f;
+  --social-button-bg:#525252;
 }
 
 * {

@@ -5,12 +5,14 @@
     </h1>
 
     <section class="flex items-center gap-2">
-      <ThemeButton />
       <ResumeButton />
+      <ThemeButton />
+      <LanguageToggle />
     </section>
   </header>
 </template>
 <script setup  lang="ts">
+import LanguageToggle from "./LanguageToggle.vue";
 import ResumeButton from "./ResumeButton.vue";
 import ThemeButton from "./ThemeButton.vue";
 

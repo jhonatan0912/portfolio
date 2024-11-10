@@ -23,6 +23,7 @@
     "paths": {
       "@assets/*": ["./src/assets/*"],
       "@constants/*": ["./src/constants/*"],
+      "@helpers/*": ["./src/helpers/*"],
       "@components/*": ["./src/components/*"],
       "@interfaces/*": ["./src/interfaces/*"]
     }
