@@ -3,8 +3,8 @@ import { Project } from '@interfaces/project.interface';
 export const projects: Project[] = [
   {
     name: "Erp",
-    src: "/src/assets/projects/palacio-chino.png",
-    repository: null,
+    src: "/src/assets/projects/erp.png",
+    repository: undefined,
   },
   {
     name: "Ecommerce",
@@ -13,7 +13,7 @@ export const projects: Project[] = [
   },
   {
     name: "Countries App",
-    src: "/src/assets/projects/countries-app.jpg",
+    src: "/src/assets/projects/countries-app.png",
     repository: "https://github.com/jhonatan0912/countries-app"
   }
 ];
