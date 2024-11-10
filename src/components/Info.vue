@@ -1,5 +1,8 @@
 <template>
   <section class="flex flex-col w-full gap-6">
+
+    <img class="avatar" src="/src/assets/avatar.png" alt="Avatar">
+
     <h2 class="text-4xl text-center">
       Hey, I'm Jhonatan. I'm a Frontend Developer
     </h2>
@@ -18,4 +21,10 @@
 import { socials } from "@constants/socials";
 import SocialButton from "./ui/SocialButton.vue";
 </script>
-<style scoped></style>
+<style scoped>
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+</style>
