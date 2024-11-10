@@ -1,6 +1,8 @@
 <template>
   <section class="skills">
-    <h3 class="my-6 text-xl font-bold text-center underline">SKILLS</h3>
+    <h3 class="my-8 text-xl font-bold text-center underline">
+      SKILLS
+    </h3>
 
     <section class="skills-grid">
       <SkillCard

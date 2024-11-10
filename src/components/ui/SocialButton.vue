@@ -1,5 +1,5 @@
 <template>
-  <a class="social-btn" :href="href">
+  <a class="social-btn" :href="href" target="_blank">
     <img
       class="social-btn-img"
       :src="`/src/assets/icons/${name}.svg`"

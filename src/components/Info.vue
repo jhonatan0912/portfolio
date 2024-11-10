@@ -1,6 +1,6 @@
 <template>
   <section class="flex flex-col w-full gap-6">
-    <h2 class="text-3xl text-center">
+    <h2 class="text-4xl text-center">
       Hey, I'm Jhonatan. I'm a Frontend Developer
     </h2>
 
