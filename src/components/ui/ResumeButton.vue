@@ -1,6 +1,6 @@
 <template>
   <a
-    href="/src/assets/Jhonatan-Yaranga.pdf"
+    href="/Jhonatan-Yaranga.pdf"
     download
     class="resume-button"
     aria-label="Download cv"

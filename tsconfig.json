@@ -2,6 +2,7 @@
     "compilerOptions": {
       "types": ["node"],
       "paths": {
+        "@assets/*":["./src/assets/*"],
         "@constants/*":["./src/constants/*"],
         "@components/*":["./src/components/*"],
         "@interfaces/*":["./src/interfaces/*"],

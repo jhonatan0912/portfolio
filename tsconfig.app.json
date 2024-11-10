@@ -21,6 +21,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
+      "@assets/*": ["./src/assets/*"],
       "@constants/*": ["./src/constants/*"],
       "@components/*": ["./src/components/*"],
       "@interfaces/*": ["./src/interfaces/*"]

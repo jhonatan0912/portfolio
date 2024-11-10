@@ -1,6 +1,6 @@
 <template>
   <section class="skill-card">
-    <img :src="`/src/assets/icons/${id}.svg`" :alt="`${name} Icon`" />
+    <img :src="`/icons/${id}.svg`" :alt="`${name} Icon`" />
 
     <span class="text-center skill-card-name">
       {{ name }}

@@ -1,7 +1,7 @@
 <template>
   <section class="flex flex-col w-full gap-6">
 
-    <img class="avatar" src="/src/assets/avatar.png" alt="Avatar">
+    <img class="avatar" src="/avatar.png" alt="Avatar">
 
     <h2 class="text-4xl text-center">
       Hey, I'm Jhonatan. I'm a Frontend Developer
@@ -11,6 +11,7 @@
       <SocialButton
         v-for="(social, index) in socials"
         :key="index"
+        :id="social.id"
         :name="social.name"
         :href="social.href"
       />

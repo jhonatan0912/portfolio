@@ -1,18 +1,19 @@
 <template>
-  <a class="social-btn" :href="href" target="_blank">
+  <a class="social-btn" :href="props.href" target="_blank">
     <img
       class="social-btn-img"
-      :src="`/src/assets/icons/${name}.svg`"
-      :alt="`${name} logo`"
+      :src="`/icons/${props.id}.svg`"
+      :alt="`${props.name} logo`"
     />
-    <span>{{ name }}</span>
+    <span>{{ props.name }}</span>
   </a>
 </template>
 <script setup lang="ts">
-defineProps({
-  name: String,
-  href: String,
-});
+const props = defineProps<{
+  id: string,
+  name: string,
+  href: string,
+}>();
 </script>
 <style scoped>
 .social-btn {
