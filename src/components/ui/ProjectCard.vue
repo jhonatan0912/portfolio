@@ -3,7 +3,7 @@
     <img :src="props.src" alt="Project Image" class="project-card__image"/>
     <div class="project-card__content">
       <h3 class="project-card__title">{{ props.name }}</h3>
-      <a  :href="props.repository" class="project-card__link">
+      <a  :href="props.repository" class="project-card__link" target="_blank">
         {{ `${props.repository ? `${$t('placeholder.viewRepository')}` : `${$t('placeholder.privateRepository')}`}` }}
       </a>
     </div>
