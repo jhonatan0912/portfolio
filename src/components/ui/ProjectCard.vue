@@ -4,7 +4,7 @@
     <div class="project-card__content">
       <h3 class="project-card__title">{{ props.name }}</h3>
       <template v-if="props.repository">
-        <a  :href="props.repository" class="project-card__link" target="_blank">
+        <a  :href="props.repository" class="project-card__link underline" target="_blank">
           {{ $t('placeholder.viewRepository') }}
         </a>
       </template>
@@ -64,6 +64,9 @@ const props = defineProps<Project>();
 
 .project-card__link:hover {
   background-color: var(--primary-color-dark);
-  text-decoration:underline;
+
+  &.underline{
+    text-decoration: underline;
+  }
 }
 </style>
