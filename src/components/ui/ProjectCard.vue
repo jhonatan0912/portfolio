@@ -3,9 +3,16 @@
     <img :src="props.src" alt="Project Image" class="project-card__image"/>
     <div class="project-card__content">
       <h3 class="project-card__title">{{ props.name }}</h3>
-      <a  :href="props.repository" class="project-card__link" target="_blank">
-        {{ `${props.repository ? `${$t('placeholder.viewRepository')}` : `${$t('placeholder.privateRepository')}`}` }}
-      </a>
+      <template v-if="props.repository">
+        <a  :href="props.repository" class="project-card__link" target="_blank">
+          {{ $t('placeholder.viewRepository') }}
+        </a>
+      </template>
+      <template v-else>
+        <span class="project-card__link">
+          {{ $t('placeholder.privateRepository') }}
+        </span>
+      </template>
     </div>
   </section>
 </template>
@@ -57,5 +64,6 @@ const props = defineProps<Project>();
 
 .project-card__link:hover {
   background-color: var(--primary-color-dark);
+  text-decoration:underline;
 }
 </style>
