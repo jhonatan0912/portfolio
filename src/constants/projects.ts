@@ -12,8 +12,8 @@ export const projects: Project[] = [
     repository: "https://github.com/jhonatan0912/palacio-chino-premium",
   },
   {
-    name: "Countries App",
-    src: "/projects/countries-app.png",
-    repository: "https://github.com/jhonatan0912/countries-app"
+    name: "GIcons - v2",
+    src: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Image-not-found.png?20210521171500",
+    repository: "https://github.com/jhonatan0912/gicons-v2"
   }
 ];
