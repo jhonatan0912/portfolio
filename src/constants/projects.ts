@@ -13,7 +13,7 @@ export const projects: Project[] = [
   },
   {
     name: "GIcons - v2",
-    src: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Image-not-found.png?20210521171500",
+    src: "/projects/gicons-v2.png",
     repository: "https://github.com/jhonatan0912/gicons-v2"
   }
 ];
